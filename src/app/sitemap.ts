@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
-  const b = "https://free-generators.vercel.app";
+  const b = "https://generator-tools-omega.vercel.app";
   return [
     { url: b, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     { url: `${b}/password`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
